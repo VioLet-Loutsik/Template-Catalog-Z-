@@ -1,0 +1,133 @@
+:root {
+  --max-dark-grey: rgb(110, 110, 110);
+  --logo-blue: #139cd7;
+  --red: rgb(212, 0, 255);
+  --green: green;
+  --border--blue: rgb(20, 173, 255);
+  --light-grey: rgb(193, 190, 190);
+  --dark-grey: #999;
+  --light-green: #009999;
+  --light-blue: rgb(0, 153, 153);
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.pagesFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9% 1%;
+}
+
+.buttonPage {
+  color: white;
+  padding: 1.3% 3%;
+  background-color: var(--light-blue);
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+}
+.pagesNumber {
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+  gap: 150%;
+}
+.number {
+  color: white;
+  background-color: var(--light-blue);
+  padding: 70% 80%;
+  border: none;
+  border-radius: 7px;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 250px;
+}
+.footerAbout {
+  /* display: flex;
+    flex-direction: row; */
+  /* height: fit-content; по контенту, только если есть картинку то задаем высоту */
+  height: max-content; /*  разница с fit content какая?*/
+  width: 50%;
+  padding: 10px;
+  /* border: 3px solid var(--border--blue); */
+}
+.aboutCatalog {
+  font-size: 21px;
+  font-family: var(--bs-font-sans-serif);
+  color: var(--light-green);
+  padding: 15px;
+  font-weight: bold;
+}
+
+.aboutCatalogText {
+  font-size: 15px;
+  padding: 15px;
+  line-height: 30px; /* высота строки */
+  color: var(--dark-grey);
+  font-family: var(--bs-font-sans-serif);
+  list-style-type: none;
+}
+
+.linksAbout {
+  width: 200px;
+  padding: 8px;
+  /* height: fit-content; */
+  /* border: 3px solid var(--border--blue); */
+}
+.ourLinksText {
+  font-size: 25px;
+  font-family: var(--bs-font-sans-serif);
+  color: var(--light-green);
+  padding: 15px;
+}
+
+.contactAbout {
+  display: flex;
+  flex-direction: column;
+  /* height: 150px; */
+  width: 200px;
+  padding: 5px;
+  /* border: 3px solid var(--border--blue); */
+}
+
+.contactIkons {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 10px 74px 22px;
+  color: var(--dark-grey);
+  font-size: 17px;
+}
+.contactTermsPrivacy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.termPrivacy {
+  list-style-type: none;
+  font-size: 15px;
+  padding: 15px;
+  line-height: 30px; /* высота строки */
+  color: var(--dark-grey);
+  font-family: var(--bs-font-sans-serif);
+  list-style-type: none; /* убирает точки со списка*/
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  padding: 19px;
+  /* border: 3px solid var(--border--blue); */
+  justify-content: space-around;
+  align-items: center;
+  color: var(--dark-grey);
+  font-size: 15px;
+}

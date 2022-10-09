@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a class="logoText" href="./index.html">Catalog-Z</a>
+      </div>
+      <div class="menu">
+        <a class="menu" href="./index.html">Photos</a>
+        <a class="menu" href="./videos.html">Videos</a>
+        <a class="menu" href="./about.html">About</a>
+        <a class="menu" href="./contact.html">Contact</a>
+      </div>
+    </header>
+    <div class="searchBlock"></div>
+
+    <div class="blockContact">
+      <div class="contactPage">
+        <div class="title">Contact Page</div>
+        <div class="nameContact">
+          <form action="" method="post" name="form1" class="contactForm">
+            <!--action пока пустой обычно это фаил на php-->
+            <input
+              name="name"
+              type="text"
+              placeholder="Name"
+              class="inputInfo"
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              class="inputInfo"
+            />
+            <select id="subject" name="list1" class="inputInfo">
+              <option>Subject</option>
+              <option>Sales&Marketing</option>
+              <option>Creative Designe</option>
+              <option>UI/UX</option>
+            </select>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+              class="inputInfo"
+            ></textarea>
+            <input type="submit" value="Отправить" class="sendMessage" />
+            <!--submit отправляет данные-->
+          </form>
+        </div>
+      </div>
+      <div class="ourAdress">
+        <div class="title">Our Address</div>
+        <div class="ourAdressContact"></div>
+        <p>
+          Quisque eleifend mi et nisi eleifend pretium. Duis porttitor accumsan
+          arcu id rhoncus. Praesent fermentum venenatis ipsum, eget vestibulum
+          purus.
+        </p>
+        <p>
+          Nulla ut scelerisque elit, in fermentum ante. Aliquam congue mattis
+          erat, eget iaculis enim posuere nec. Quisque risus turpis, tempus in
+          iaculis.
+        </p>
+        <p>
+          120-240 Fusce eleifend varius tempus Duis consectetur at ligula 10660
+        </p>
+        <div class="contactAll">
+          <p>Email: info@company.com</p>
+          <p>Tel: 010-020-0340</p>
+          <p>URL: www.company.com</p>
+        </div>
+      </div>
+      <div class="ourLocation">
+        <div class="title">Our Location</div>
+        <map name="workmap" class="mapLocation">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110583.93704845155!2d12.341058098747272!3d41.902371209922514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2z0KDQuNC8LCDQmNGC0LDQu9C40Y8!5e0!3m2!1sru!2s!4v1664515634525!5m2!1sru!2s"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </map>
+      </div>
+    </div>
+    <div class="containerContactContent">
+      <div class="descriptionContact">
+        <div class="photo">
+          <img src="./imagepersons/people-1.jpg" alt="" />
+        </div>
+          <div class="title">Ryan White</div>
+          <div class="profession">Chief Executive Officer</div>
+          <p>
+            Mauris ante tellus, feugiat nec metus non, bibendum semper velit.
+            Praesent laoreet urna id tristique fermentum. Morbi venenatis dui
+            quis diam mollis pellentesque.
+          </p>
+          <div class="contactPersons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        </div>
+           <div class="descriptionContact">
+        <div class="photo">
+          <img src="./imagepersons/people-2.jpg" alt="" />
+        </div>
+          <div class="title">Catherine Pinky</div>
+          <div class="profession">Chief Marketing Officer</div>
+          <p>
+            Sed faucibus nec velit finibus accumsan. Sed varius augue et leo
+            pharetra, in varius lacus eleifend. Quisque ut eleifend lacus.
+          </p>
+           <div class="contactPersons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        </div>
+    
+      <div class="descriptionContact">
+        <div class="photo">
+          <img src="./imagepersons/people-3.jpg" alt="" />
+        </div>
+          <div class="title">Johnny Brief</div>
+          <div class="profession">Accounting Brief</div>
+          <p>
+            Sed faucibus nec velit finibus accumsan. Sed varius augue et leo
+            pharetra, in varius lacus eleifend. Quisque ut eleifend lacus.
+          </p>
+          <div class="contactPersons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        </div>
+        <div class="descriptionContact">
+        <div class="photo">
+          <img src="./imagepersons/people-4.jpg" alt="" />
+        </div>
+          <div class="title">George Nelson</div>
+          <div class="profession">Creative Art Director #C69</div>
+          <p>
+            Nunc convallis facilisis congue. Curabitur gravida rutrum justo sed
+            pulvinar. Pellentesque ac ante in erat bibendum dignissim.
+          </p>
+          <div class="contactPersons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        </div>
+        </div>
+      </div>
+    <footer class="footer1">
+      <div class="footerAbout">
+        <p class="aboutCatalog">About Catalog-Z</p>
+        <p class="aboutCatalogText">
+          Catalog-Z is free
+          <a href="https://templatemo.com/live/templatemo_556_catalog_z"
+            >Bootstrap 5</a
+          >
+          Alpha 2 HTML Template for video and photo websites. You can freely use
+          this TemplateMo layout for a front-end integration with any kind of
+          CMS website.
+        </p>
+      </div>
+      <div class="linksAbout">
+        <!-- <div class="ourLinksText"> -->
+        <p class="aboutCatalog">Our links</p>
+        <ul class="aboutCatalogText">
+          <li>Advertise</li>
+          <li>Support</li>
+          <li>Our Company</li>
+          <li>Contact</li>
+        </ul>
+        <!-- </div> -->
+      </div>
+      <div class="contactAbout">
+        <div class="contactIkons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <div class="contactTermsPrivacy">
+          <ul class="termPrivacy">
+            <li>Terms of Use</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="footer2">
+      <div class="footerInfo1">
+        Copyright 2020 Catalog-Z Company. All rights reserved.
+      </div>
+      <div class="footerInfo2">Designed by TemplateMo</div>
+    </div>
+  </body>
+</html>

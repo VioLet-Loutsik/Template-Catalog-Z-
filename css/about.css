@@ -1,0 +1,116 @@
+:root {
+  --max-dark-grey: rgb(110, 110, 110);
+  --logo-blue: #139cd7;
+  --red: rgb(212, 0, 255);
+  --green: green;
+  --border--blue: rgb(20, 173, 255);
+  --light-grey: rgb(193, 190, 190);
+  --dark-grey: #999;
+  --light-green: #009999;
+  --light-blue: rgb(0, 153, 153);
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.title {
+  color: var(--light-green);
+  font-size: 190%;
+  font-weight: bold;
+  padding: 45px 5px 5px 10px;
+  /* border: 2px solid crimson; */
+}
+.aboutCatalog-Z {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.imageAbout {
+  width: 30%;
+  padding: 1%;
+  /* border: 2px solid rgb(37, 214, 108); */
+}
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 52%;
+  /* border: 2px solid rgb(33, 26, 150); */
+  color: var(--dark-grey);
+  padding: 1%;
+}
+.aboutText p {
+  text-align: justify; /* выравнивает текст со всех сторон*/
+  line-height: 180%;
+}
+
+.aboutSide {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 2% 0%;
+}
+.aboutLeftRightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* border: 3px solid violet; */
+  color: var(--dark-grey);
+  padding: 2%;
+  line-height: 180%;
+  text-align: justify;
+}
+/*  */
+.three-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  gap: 2%;
+  text-align: justify;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-green);
+  font-size: 500%;
+  border: 3px solid var(--light-blue);
+  margin: 35px;
+  height: 150px;
+  width: 150px;
+}
+.aboutThreeColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* border: 2px solid rgb(33, 26, 150); */
+  color: var(--dark-grey);
+  line-height: 180%;
+  padding: 3%;
+}
+.buttonReadMore {
+  /* display: flex;
+    justify-content: center; */
+  color: white;
+  background-color: var(--light-green);
+  padding: 3%;
+  width: 30%;
+  border-radius: 7px;
+  border: none;
+  margin: 5% 35%;
+}
+
+@media (max-width: 1200px) {
+  .aboutCatalog-Z {
+    flex-direction: column;
+  }
+  .imageAbout {
+    width: 100%;
+  }
+  .aboutText {
+    width: 100%;
+  }
+}

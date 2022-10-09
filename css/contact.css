@@ -1,0 +1,106 @@
+:root {
+  --max-dark-grey: rgb(110, 110, 110);
+  --logo-blue: #139cd7;
+  --red: rgb(212, 0, 255);
+  --green: green;
+  --border--blue: rgb(20, 173, 255);
+  --light-grey: rgb(193, 190, 190);
+  --dark-grey: #999;
+  --light-green: #009999;
+  --white: white;
+  --light-blue: rgb(0, 153, 153);
+  --pink: #cc6699;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.blockContact {
+  display: flex;
+  width: 100%;
+}
+
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding: 20px;
+}
+.nameContact {
+  padding: 6% 2%;
+}
+.ourAdress {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  color: var(--dark-grey);
+  gap: 15px;
+  width: 35%;
+  padding: 20px;
+  line-height: 180%;
+}
+.ourAdressContact {
+  display: flex;
+  flex-direction: column;
+  padding: 1% 2%;
+}
+
+.ourLocation {
+  width: 35%;
+  padding: 10px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputInfo {
+  padding: 13px 20px;
+  /* border-color: var(--dark-grey); */
+  color: var(--light-green);
+  /* font-size: 16px; */
+}
+.sendMessage {
+  width: 40%;
+  padding: 5% 7%;
+  font-size: 100%;
+  background-color: var(--light-blue);
+  color: var(--white);
+  border-color: var(--dark-grey);
+  border-radius: 7px;
+  border: none;
+}
+.containerContactContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 2% 1% 5% 1%;
+}
+.descriptionContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  color: var(--dark-grey);
+}
+
+.profession {
+  color: var(--pink);
+  font-size: 130%;
+  font-weight: bold;
+  padding: 15px 5px 15px 10px;
+  /* border: 2px solid crimson; */
+}
+.descriptionContact p {
+  text-align: justify;
+  padding: 3%;
+}
+.contactPersons {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 120px 70px 80px;
+  color: var(--dark-grey);
+  font-size: 17px;
+}
