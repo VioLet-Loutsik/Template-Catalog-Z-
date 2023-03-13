@@ -1,21 +1,19 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 1px solid var(--red); */
-    padding: 1px 10px;
-  }
-  .logoText {
-    font-size: 29px;
-    color: var(--logo-blue);
-    /* text-decoration: none; убирает линию гиперссылки */
-  }
-  .menu {
-    display: inline-block;
-    font-size: 20px;
-    color: var(--max-dark-grey);
-    /* text-decoration: none; */
-    padding: 10px 20px;
-    /* margin: px; */
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid var(--red); */
+  padding: 1px 10px;
+}
+.logoText {
+  font-size: 29px;
+  color: var(--logo-blue);
+  /* text-decoration: none; убирает линию гиперссылки */
+}
+.menu {
+  display: inline-block;
+  font-size: 20px;
+  color: var(--max-dark-grey);
+  padding: 10px 20px;
+}

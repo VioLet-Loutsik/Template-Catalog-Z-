@@ -55,12 +55,13 @@ body {
 .containerName {
   font-size: 35px;
   color: var(--light-green);
-  padding: 30px 0px; /*?????? как урегулировать край   */
+  padding: 30px 0px;
 }
 .containerPages {
   font-size: 20px;
   color: var(--light-green);
 }
+
 .containerContent {
   display: flex;
   flex-direction: row;
@@ -73,9 +74,11 @@ body {
 .data {
   color: var(--light-grey);
 }
+
 .views {
   color: var(--dark-grey);
 }
+
 .description {
   display: flex;
   flex-direction: row;
@@ -149,18 +152,21 @@ body {
 
 /* mobile version */
 @media (max-width: 576px) {
-.number{
-  padding: 35% 40%;
-}
+  .number {
+    padding: 35% 40%;
+  }
 }
 @media (max-width: 576px) {
   /* Измените размер элемента <containerName> на 30px, когда окно браузера имеет ширину 576px или меньше: */
   .containerName {
     font-size: 30px;
   }
-  .buttonPage{
+  .buttonPage {
     padding: 0px 0px;
-      }
+  }
+  .containerContactContent{
+    flex-direction: column;
+  }
 }
 @media (max-width: 768px) {
   .footer1 {
@@ -189,8 +195,23 @@ body {
   .pagesNumber {
     gap: 15%;
   }
-  .three-column{
-   flex-direction: row;
+  .three-column {
+    flex-direction: column;
   }
-
+  .aboutThreeColumn {
+    flex-direction: row;
+  }
+  .titleOne,
+  .titleTwo,
+  .titleThree {
+    width: 100%;
+  }
+  @media (max-width: 1200px) {
+    .containerContactContent {
+      flex-direction: column;
+    }
+  }
+  .blockContact {
+    flex-direction: column;
+  }
 }

@@ -65,11 +65,20 @@
 /*  */
 .three-column {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-around;
   width: 100%;
   gap: 2%;
   text-align: justify;
+}
+.titleOne{
+  width: 30%;
+}
+.titleTwo{
+  width: 30%;
+}
+.titleThree{
+  width: 30%;
 }
 .icon {
   display: flex;
@@ -82,6 +91,7 @@
   height: 150px;
   width: 150px;
 }
+
 .aboutThreeColumn {
   display: flex;
   flex-direction: column;
@@ -91,6 +101,7 @@
   line-height: 180%;
   padding: 3%;
 }
+
 .buttonReadMore {
   /* display: flex;
     justify-content: center; */

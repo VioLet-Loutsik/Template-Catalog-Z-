@@ -17,28 +17,33 @@
 
 .blockContact {
   display: flex;
+  flex-direction: row;
   width: 100%;
+  /* border: 2px solid red; */
 }
 
 .contactPage {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 30%;
   padding: 20px;
 }
+
 .nameContact {
   padding: 6% 2%;
 }
+
 .ourAdress {
   display: flex;
   flex-direction: column;
   font-size: 15px;
   color: var(--dark-grey);
   gap: 15px;
-  width: 35%;
+  width: 30%;
   padding: 20px;
   line-height: 180%;
 }
+
 .ourAdressContact {
   display: flex;
   flex-direction: column;
@@ -46,9 +51,10 @@
 }
 
 .ourLocation {
-  width: 35%;
+  width: 30%;
   padding: 10px;
 }
+
 .contactForm {
   display: flex;
   flex-direction: column;
@@ -57,10 +63,9 @@
 
 .inputInfo {
   padding: 13px 20px;
-  /* border-color: var(--dark-grey); */
   color: var(--light-green);
-  /* font-size: 16px; */
 }
+
 .sendMessage {
   width: 40%;
   padding: 5% 7%;
@@ -71,19 +76,35 @@
   border-radius: 7px;
   border: none;
 }
+
 .containerContactContent {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* flex-wrap: wrap; */
   gap: 20px;
   padding: 2% 1% 5% 1%;
+  /* border: 2px solid rgb(64, 10, 243); */
 }
+
 .descriptionContact {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  width: 24%;
+  justify-content: space-around;
   /* border: 2px solid red; */
   color: var(--dark-grey);
+}
+
+.photoContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.imagePhoto {
+  width: 100%;
 }
 
 .profession {
@@ -91,16 +112,34 @@
   font-size: 130%;
   font-weight: bold;
   padding: 15px 5px 15px 10px;
-  /* border: 2px solid crimson; */
 }
+
 .descriptionContact p {
+  display: flex;
   text-align: justify;
   padding: 3%;
 }
+
 .contactPersons {
   display: flex;
   justify-content: space-around;
   padding: 40px 120px 70px 80px;
   color: var(--dark-grey);
   font-size: 17px;
+}
+
+@media (max-width: 576px) {
+  /* Измените размер элемента <containerName> на 30px, когда окно браузера имеет ширину 576px или меньше: */
+  .containerName {
+    font-size: 30px;
+  }
+  .buttonPage {
+    padding: 0px 0px;
+  }
+  .containerContactContent {
+    flex-direction: column;
+  }
+  .descriptionContact {
+    width: 100%;
+  }
 }
